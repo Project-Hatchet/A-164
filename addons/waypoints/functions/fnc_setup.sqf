@@ -14,6 +14,6 @@ _vehicle setUserMFDText [0, "--:--:--"];
 _vehicle setUserMFDText [1, "NO WPT"];
 _vehicle setUserMFDText [2, ""];
 
-hatchet_vanilla_waypoints_mapSize = [] call BIS_fnc_mapSize;
+hct_164_waypoints_mapSize = [] call BIS_fnc_mapSize;
 
 true

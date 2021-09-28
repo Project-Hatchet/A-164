@@ -27,7 +27,7 @@ class cfgVehicles {
 			};
 		};
 		class vxf_driver {
-			projectPrefix = "hatchet_vanilla";
+			projectPrefix = "hct_164";
 			class modules {
 				class waypoints {
 					startOnEnter = 1;

@@ -1,5 +1,5 @@
 /*
- * hatchet_vanilla_waypoints_fnc_perFrame
+ * hct_164_waypoints_fnc_perFrame
  *
  * handles per frame updates of data for FMS
  *

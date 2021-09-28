@@ -36,7 +36,8 @@ class Draw {
 		#include "mfd\page_dsms_draw.hpp"
 	};
 	class page_nav {
+		//TODO: Radar Sensor Setup
 		condition = COND_ISNUMBER(MFD_PAGE_INDEX,MFD_PAGE_NAV);
-		#include "mfd\page_nav_draw.hpp"
+		//#include "mfd\page_nav_draw.hpp"
 	};
 };

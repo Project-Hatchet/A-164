@@ -1,5 +1,5 @@
 /*
- * hatchet_vanilla_waypoints_fnc_perSecond
+ * hct_164_waypoints_fnc_perSecond
  *
  * handles occasional updates of data for waypoints
  *
@@ -33,7 +33,7 @@ _vehicle setUserMFDText [3, format["%1/%2", _waypointIndex + 1, count (waypoints
 //     _waypointPosition = waypointPosition [group player, (currentWaypoint group player) + _forEachIndex - 1];
 //     if (!(_waypointPosition isEqualTo [0,0,0])) then {
 //         _vehicle setUserMFDvalue [_x # 0, _vehicle getRelDir _waypointPosition];
-//         _vehicle setUserMFDvalue [_x # 1, ((_vehicle distance2D _waypointPosition) * _zoomLevel) / (hatchet_vanilla_waypoints_mapSize / 2)];
+//         _vehicle setUserMFDvalue [_x # 1, ((_vehicle distance2D _waypointPosition) * _zoomLevel) / (hct_164_waypoints_mapSize / 2)];
 //     } else {
 //         _vehicle setUserMFDvalue [_x # 0, -1];
 //         _vehicle setUserMFDvalue [_x # 1, -1];

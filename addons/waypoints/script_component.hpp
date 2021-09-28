@@ -1,6 +1,6 @@
 #define COMPONENT waypoints
 #define COMPONENT_BEAUTIFIED waypoints
-#include "\z\hatchet_vanilla\addons\main\script_mod.hpp"
+#include "\z\hct_164\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -15,4 +15,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_waypoints
 #endif
 
-#include "\z\hatchet_vanilla\addons\main\script_macros.hpp"
+#include "\z\hct_164\addons\main\script_macros.hpp"

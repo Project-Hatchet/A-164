@@ -1,5 +1,5 @@
 /*
- * hatchet_vanilla_waypoints_fnc_interaction
+ * hct_164_waypoints_fnc_interaction
  *
  * handle interaction of waypoint page
  *
@@ -52,7 +52,7 @@ switch (_action) do {
     //     ACE_player setVariable ["ace_microdagr_waypoints", _microDagrWaypoints];
     //     private _wp = group player addWaypoint [_newWP # 1, -1, (count waypoints group player), _newWP # 0];
     //     _wp setWaypointDescription (_newWP # 0);
-    //     private _autoNext = _vehicle getVariable ["hatchet_vanilla_waypoints_import_autoCycle", false];
+    //     private _autoNext = _vehicle getVariable ["hct_164_waypoints_import_autoCycle", false];
     //     if (!_autoNext) then {
     //         _wp setWaypointStatements ["false", ""];
     //     };
@@ -60,4 +60,4 @@ switch (_action) do {
     // };
 };
 
-[_vehicle] call hatchet_vanilla_waypoints_fnc_perSecond;
+[_vehicle] call hct_164_waypoints_fnc_perSecond;

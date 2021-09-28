@@ -19,12 +19,12 @@ MFD_BTN(BOTTOM_2,BOTTOM_2_POS,"NAV")
 class PAGE_NAV {
   condition= USERVAL(MFD_PAGE_INDEX,MFD_PAGE_NAV);
   MFD_BTN(LEFT_3,LEFT_3_POS,"WP Next")
-    buttonDown = "[_this # 0, ""cycle"", 1] call hatchet_vanilla_waypoints_fnc_interaction;";
+    buttonDown = "[_this # 0, ""cycle"", 1] call hct_164_waypoints_fnc_interaction;";
   };
   MFD_BTN(LEFT_4,LEFT_4_POS,"WP Prev")
-    buttonDown = "[_this # 0, ""cycle"", -1] call hatchet_vanilla_waypoints_fnc_interaction;";
+    buttonDown = "[_this # 0, ""cycle"", -1] call hct_164_waypoints_fnc_interaction;";
   };
   MFD_BTN(LEFT_5,LEFT_5_POS,"Import microdagr waypoints")
-    buttonDown = "[_this # 0, ""import""] call hatchet_vanilla_waypoints_fnc_interaction;";
+    buttonDown = "[_this # 0, ""import""] call hct_164_waypoints_fnc_interaction;";
   };
 };
