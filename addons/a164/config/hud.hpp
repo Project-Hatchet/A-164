@@ -1912,7 +1912,7 @@ class Draw {
 				},
 			};
 		};
-	}; //
+	}; //BombCrosshair
 	class BombCrosshairGroup
 	{
 		type="group";
@@ -2452,7 +2452,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; //BombCrosshairGroup
 	class WeaponName
 	{
 		type="text";
@@ -2475,7 +2475,7 @@ class Draw {
 			{0.050000001,0.88999999},
 			1
 		};
-	};
+	}; // WeaponName
 	class AmmoCount
 	{
 		type="text";
@@ -2498,7 +2498,7 @@ class Draw {
 			{0.94999999,0.88999999},
 			1
 		};
-	};
+	}; // AmmoCount
 	class StallGroup
 	{
 		type="group";
@@ -2529,7 +2529,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // StallGroup
 	class PitchNumber
 	{
 		type="text";
@@ -2552,7 +2552,7 @@ class Draw {
 			{0.13,0.26499999},
 			1
 		};
-	};
+	}; // PitchNumber
 	class PitchText
 	{
 		type="text";
@@ -2575,7 +2575,7 @@ class Draw {
 			{0.11,0.26499999},
 			1
 		};
-	};
+	}; // PitchText
 	class RollNumber
 	{
 		type="text";
@@ -2598,7 +2598,7 @@ class Draw {
 			{0.13,0.31},
 			1
 		};
-	};
+	}; // RollNumber
 	class RollText
 	{
 		type="text";
@@ -2621,7 +2621,7 @@ class Draw {
 			{0.11,0.31},
 			1
 		};
-	};
+	}; // RollText
 	class SpeedNumber
 	{
 		type="text";
@@ -2644,7 +2644,7 @@ class Draw {
 			{0.13,0.40000001},
 			1
 		};
-	};
+	}; // SpeedNumber
 	class SpeedText
 	{
 		type="text";
@@ -2667,7 +2667,7 @@ class Draw {
 			{0.11,0.40000001},
 			1
 		};
-	};
+	}; // SpeedText
 	class SpeedSeparator
 	{
 		type="line";
@@ -2685,7 +2685,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // SpeedSeparator
 	class FlapsGroup
 	{
 		type="group";
@@ -2713,7 +2713,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // FlapsGroup
 	class GearGroup
 	{
 		type="group";
@@ -2741,7 +2741,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // GearGroup
 	class ILS
 	{
 		condition="ils";
@@ -2944,7 +2944,7 @@ class Draw {
 				};
 			};
 		};
-	};
+	}; // ILS
 	class LightsGroup
 	{
 		type="group";
@@ -2972,7 +2972,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // LightsGroup
 	class CollisionLightsGroup
 	{
 		type="group";
@@ -3000,7 +3000,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // CollisionLightsGroup
 	class Climb
 	{
 		type="line";
@@ -3163,7 +3163,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // Climb
 	class ClimbMinGroup
 	{
 		type="group";
@@ -3195,7 +3195,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // ClimbMinGroup
 	class ClimbMaxGroup
 	{
 		type="group";
@@ -3227,7 +3227,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // ClimbMaxGroup
 	class ClimbText
 	{
 		type="text";
@@ -3250,7 +3250,7 @@ class Draw {
 			{0.87,0.74599999},
 			1
 		};
-	};
+	}; // ClimbText
 	class TerrainGroup
 	{
 		type="group";
@@ -3328,7 +3328,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // TerrainGroup
 	class AltitudeNumber
 	{
 		type="text";
@@ -3351,7 +3351,7 @@ class Draw {
 			{0.84500003,0.40000001},
 			1
 		};
-	};
+	}; // AltitudeNumber
 	class AltitudeText
 	{
 		type="text";
@@ -3374,7 +3374,7 @@ class Draw {
 			{0.88,0.75999999},
 			1
 		};
-	};
+	}; // AltitudeText
 	class AltitudeArrow
 	{
 		type="line";
@@ -3413,7 +3413,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // AltitudeArrow
 	class AltitudeScale
 	{
 		type="scale";
@@ -3438,7 +3438,7 @@ class Draw {
 		pos[]={0.91000003,0.69};
 		right[]={0.94999999,0.69};
 		down[]={0.91000003,0.73000002};
-	};
+	}; // AltitudeScale
 	class HeadingArrows
 	{
 		type="line";
@@ -3489,7 +3489,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // HeadingArrows
 	class HeadingScale
 	{
 		type="scale";
@@ -3513,7 +3513,7 @@ class Draw {
 		pos[]={0.050000001,0.94};
 		right[]={0.090000004,0.94};
 		down[]={0.050000001,0.98000002};
-	};
+	}; // HeadingScale
 	class WP
 	{
 		condition="wpvalid";
@@ -3629,7 +3629,7 @@ class Draw {
 				1
 			};
 		};
-	};
+	}; // WP
 	class HorizontalLine
 	{
 		clipTL[]={0.2,0};
@@ -3719,7 +3719,7 @@ class Draw {
 				}
 			};
 		};
-	};
+	}; // HorizontalLine
 	class HorizonIndicatorBackground
 	{
 		type="line";
@@ -3737,7 +3737,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // HorizonIndicatorBackground
 	class HorizonIndicator
 	{
 		type="line";
@@ -3871,7 +3871,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // HorizonIndicator
 	class RadarBoxes
 	{
 		type="radar";
@@ -3906,7 +3906,7 @@ class Draw {
 				1
 			}
 		};
-	};
+	}; // RadarBoxes
 	class TargetDiamond
 	{
 		class shape
@@ -3962,7 +3962,7 @@ class Draw {
 				}
 			};
 		};
-	};
+	}; // TargetDiamond
 	class TargetLocked
 	{
 		condition="missilelocked";
@@ -4019,7 +4019,7 @@ class Draw {
 				}
 			};
 		};
-	};
+	}; // TargetLocked
 	class TargetingPodGroup
 	{
 		condition="1-pilotcameralock";
@@ -4212,7 +4212,7 @@ class Draw {
 				{}
 			};
 		};
-	};
+	}; //TargetingPodGroup
 	class TargetingPodGroupOn
 	{
 		condition="pilotcameralock";
@@ -4453,7 +4453,7 @@ class Draw {
 				{}
 			};
 		};
-	};
+	}; // TargetingPodGroupOn
 	class LAR
 	{
 		type="group";
@@ -4541,7 +4541,7 @@ class Draw {
 				},
 				{}
 			};
-		};
+		}; 
 		class Poly
 		{
 			type="polygon";
@@ -4579,7 +4579,7 @@ class Draw {
 					}
 				}
 			};
-		};
+		}; // Poly
 		class TopText
 		{
 			type="text";
@@ -4602,7 +4602,7 @@ class Draw {
 				1
 			};
 			align="right";
-		};
+		}; // TopText
 		class MiddleText: TopText
 		{
 			source="LarTop";
@@ -4623,7 +4623,7 @@ class Draw {
 				{0.22,0.68000001},
 				1
 			};
-		};
+		}; // MiddleText
 		class SpeedText: TopText
 		{
 			source="LarTargetSpeed";
@@ -4650,6 +4650,6 @@ class Draw {
 				{0.16,0.79000002},
 				1
 			};
-		};
-	};
+		}; //SpeedText
+	};//LAR
 };
