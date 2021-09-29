@@ -12,9 +12,8 @@ class material {
 	ambient[] = {1, 1, 1, 1};
 	diffuse[] = {0.5, 0.5, 0.5, 1};
 	emissive[] = {100, 100, 100, 50};
-};
-class Bones
-{
+};//material
+class Bones {
 	class PlaneOrientation
 	{
 		type="fixed";
@@ -335,9 +334,8 @@ class Bones
 	{
 		source="LarTargetDist";
 	};
-};
-class Draw
-{
+};//bones
+class Draw {
 	color[] = {0.082,0.4,0.039,1};
 	alpha = 1;
 	condition="on";
@@ -390,7 +388,7 @@ class Draw
 			},
 			{}
 		};
-	};
+	}; //PlaneOrientationCrosshair
 	class PlaneMovementCrosshair
 	{
 		clipTL[]={0,1};
@@ -518,7 +516,7 @@ class Draw
 			},
 			{}
 		};
-	};
+	}; //PlaneMovementCrosshair
 	class MachineGunCrosshairGroup
 	{
 		type="group";
@@ -1055,7 +1053,7 @@ class Draw
 				1
 			};
 		};
-	};
+	}; //MachineGunCrosshairGroup
 	class AAMissileCrosshairGroup
 	{
 		type="group";
@@ -1290,7 +1288,7 @@ class Draw
 				}
 			};
 		};
-	};
+	}; //AAMissileCrosshairGroup
 	class ATMissileCrosshairGroup
 	{
 		condition="ATmissile";
@@ -1406,7 +1404,7 @@ class Draw
 				}
 			};
 		};
-	};
+	}; //ATMissileCrosshairGroup
 	class RocketCrosshairGroup
 	{
 		type="group";
@@ -1538,7 +1536,7 @@ class Draw
 				1
 			};
 		};
-	};
+	}; //RocketCrosshairGroup
 	class BombCrosshairCCRPGroup {
 		type="group";
 		condition="bomb*(user10>0)";
@@ -1914,7 +1912,7 @@ class Draw
 				},
 			};
 		};
-	};
+	}; //
 	class BombCrosshairGroup
 	{
 		type="group";

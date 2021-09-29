@@ -22,11 +22,11 @@ class Sensor
 	range = 8000;
 	class MissileThreat
 	{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","M")
+		//TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","M")
 	};
 	class rwr // there's a radar, but stuff isn't happening yet
 	{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		//TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class lockingThreat:rwr{
 		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
@@ -45,7 +45,7 @@ class Sensor
 	class markedTarget {};
 	class assignedTarget: markedTarget{};
 	class target:markedTarget{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		//TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class targetFriendly {};
 	class targetEnemy: markedTarget{};
