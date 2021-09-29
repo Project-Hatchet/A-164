@@ -32,18 +32,19 @@ class PAGE_NAV {
 class PAGE_DSMS {
   condition= USERVAL(MFD_PAGE_INDEX,MFD_PAGE_DSMS);
   MFD_BTN(LEFT_5,LEFT_5_POS,"Pylon 1") 
-    buttonDown = "[_this # 0, 0] call hct_164_a164_fnc_dsms_wpn_switch;";
+    buttonDown = "[_this # 0, 0] call hct_164_a164_fnc_dsmsWpnSwitch;";
+    //buttonDown = "hint str(_this);";
   };
   MFD_BTN(LEFT_4,LEFT_4_POS,"Pylon 2") 
-    buttonDown = "[_this # 0, 1] call hct_164_a164_fnc_dsms_wpn_switch;";
+    buttonDown = "[_this # 0, 1] call hct_164_a164_fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_3,LEFT_3_POS,"Pylon 3") 
-    buttonDown = "[_this # 0, 2] call hct_164_a164_fnc_dsms_wpn_switch;";
+    buttonDown = "[_this # 0, 2] call a164_fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_2,LEFT_2_POS,"Pylon 4") 
-    buttonDown = "[_this # 0, 3] call hct_164_a164_fnc_dsms_wpn_switch;";
+    buttonDown = "[_this # 0, 3] call fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_1,LEFT_1_POS,"Pylon 5") 
-    buttonDown = "[_this # 0, 4] call hct_164_a164_fnc_dsms_wpn_switch;";
+    buttonDown = "[_this # 0, 4] call z_hct_164_addons_a164_functions_fnc_dsmsWpnSwitch;";
   };
 };
