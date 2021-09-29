@@ -22,30 +22,30 @@ class Sensor
 	range = 8000;
 	class MissileThreat
 	{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","M")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","M")
 	};
 	class rwr // there's a radar, but stuff isn't happening yet
 	{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class lockingThreat:rwr{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	}; // locking, you're in for a bad time
 	class markingThreat: rwr{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	}; // radar is tracking you actively
 	class rwrFriendly: rwr{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class rwrEnemy: rwr{};
 	class rwrGroup: rwr{};
 	class rwrDestroyed{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class markedTarget {};
 	class assignedTarget: markedTarget{};
 	class target:markedTarget{
-		TEXT_MFD_R_SCALE(TEXT,-0.02,-0.02,0.8,"center","R")
+		TEXT_MFD_R_SCALE_STATIC(TEXT,-0.02,-0.02,0.8,"center","R")
 	};
 	class targetFriendly {};
 	class targetEnemy: markedTarget{};
