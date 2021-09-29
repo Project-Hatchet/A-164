@@ -45,7 +45,11 @@ class cfgVehicles {
 					#define LEFT_3_POS {-0.287065,5.50158,0.63786}
 					#define LEFT_4_POS {-0.287065,5.49558,0.61586}
 					#define LEFT_5_POS {-0.287065,5.4908, 0.59586}
-					#define RIGHT_1_POS{-0.287065,0.50550,0.68386}
+					#define RIGHT_1_POS{-0.090065,5.50550,0.68386}
+					#define RIGHT_2_POS{-0.090065,5.50620,0.66086}
+					#define RIGHT_3_POS{-0.090065,5.50158,0.63786}
+					#define RIGHT_4_POS{-0.090065,5.49558,0.61586}
+					#define RIGHT_5_POS{-0.090065,5.4908,0.59586}
 					#include "interaction.hpp"
 				};
 				class MFD_RIGHT {
@@ -59,6 +63,10 @@ class cfgVehicles {
 					#undef LEFT_4_POS
 					#undef LEFT_5_POS
 					#undef RIGHT_1_POS
+					#undef RIGHT_2_POS
+					#undef RIGHT_3_POS
+					#undef RIGHT_4_POS
+					#undef RIGHT_5_POS
 					#define BOTTOM_1_POS {0.159065,5.47158,0.535086}
 					#define BOTTOM_2_POS {0.179065,5.47158,0.535086}
 					#define LEFT_1_POS {0.108065,5.50550,0.68386}
@@ -66,7 +74,11 @@ class cfgVehicles {
 					#define LEFT_3_POS {0.108065,5.50158,0.63786}
 					#define LEFT_4_POS {0.108065,5.49558,0.61586}
 					#define LEFT_5_POS {0.108065,5.4908,0.59586}
-					#define RIGHT_1_POS{0.108065,5.50550,0.38386}
+					#define RIGHT_1_POS{0.310365,5.50550,0.68386}
+					#define RIGHT_2_POS{0.310365,5.50620,0.66086}
+					#define RIGHT_3_POS{0.310365,5.50158,0.63786}
+					#define RIGHT_4_POS{0.310365,5.49558,0.61586}
+					#define RIGHT_5_POS{0.310365,5.4908,0.58786}
 					#include "interaction.hpp"
 				};
 			};

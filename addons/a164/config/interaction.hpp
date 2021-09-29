@@ -32,19 +32,34 @@ class PAGE_NAV {
 class PAGE_DSMS {
   condition= USERVAL(MFD_PAGE_INDEX,MFD_PAGE_DSMS);
   MFD_BTN(LEFT_5,LEFT_5_POS,"Pylon 1") 
-    buttonDown = "[_this # 0, 0] call hct_164_a164_fnc_dsmsWpnSwitch;";
+    buttonDown = "[_this # 0, 9] call hct_164_a164_fnc_dsmsWpnSwitch;";//MFD page works in reverse order
     //buttonDown = "hint str(_this);";
   };
   MFD_BTN(LEFT_4,LEFT_4_POS,"Pylon 2") 
-    buttonDown = "[_this # 0, 1] call hct_164_a164_fnc_dsmsWpnSwitch;";
+    buttonDown = "[_this # 0, 8] call hct_164_a164_fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_3,LEFT_3_POS,"Pylon 3") 
-    buttonDown = "[_this # 0, 2] call a164_fnc_dsmsWpnSwitch;";
+    buttonDown = "[_this # 0, 7] call hct_164_a164_fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_2,LEFT_2_POS,"Pylon 4") 
-    buttonDown = "[_this # 0, 3] call fnc_dsmsWpnSwitch;";
+    buttonDown = "[_this # 0, 6] call hct_164_a164_fnc_dsmsWpnSwitch;";
   };
   MFD_BTN(LEFT_1,LEFT_1_POS,"Pylon 5") 
-    buttonDown = "[_this # 0, 4] call z_hct_164_addons_a164_functions_fnc_dsmsWpnSwitch;";
+    buttonDown = "[_this # 0, 5] call hct_164_a164_fnc_dsmsWpnSwitch;";
   };
+  MFD_BTN(RIGHT_1,RIGHT_1_POS,"Pylon 6") 
+    buttonDown = "[_this # 0, 4] call hct_164_a164_fnc_dsmsWpnSwitch;";
+  };
+  MFD_BTN(RIGHT_2,RIGHT_2_POS,"Pylon 7") 
+    buttonDown = "[_this # 0, 3] call hct_164_a164_fnc_dsmsWpnSwitch;";
+  };
+  MFD_BTN(RIGHT_3,RIGHT_3_POS,"Pylon 8") 
+    buttonDown = "[_this # 0, 2] call hct_164_a164_fnc_dsmsWpnSwitch;";
+  };
+  MFD_BTN(RIGHT_4,RIGHT_4_POS,"Pylon 9") 
+    buttonDown = "[_this # 0, 1] call hct_164_a164_fnc_dsmsWpnSwitch;";
+  };
+  MFD_BTN(RIGHT_5,RIGHT_5_POS,"Pylon 10") 
+    buttonDown = "[_this # 0, 0] call hct_164_a164_fnc_dsmsWpnSwitch;";
+  };//Pylons go in reverso order now, because they're being read in the opposite direction (-> to <-)
 };
